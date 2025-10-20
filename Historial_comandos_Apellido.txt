@@ -1,0 +1,182 @@
+pwd
+ls -la
+cd ssh
+cd .ssh
+ls -la
+cat id_rsa.pub
+sudo apt install git
+git version
+git clone git@github.com:Vazquezsantiago/Recu_TP_AySO.git
+cd README
+git status
+git add README
+git clone git@github.com:Vazquezsantiago/Recu_TP_AySO.git
+rm -rf Recu_TP_AySO
+git clone git@github.com:Vazquezsantiago/Recu_TP_AySO.git
+cd Recu_TP_AySO
+echo " # Recu_TP_AySO" > README.md
+ls
+git comit m- "redme inicial"
+git commit m-  "readme inicial"
+git commit -m  "readme inicial"
+git config --global user.name "vazquezsantiago"
+git commit -m  "readme inicial"
+git add
+git commit -m  "readme inicial"
+git push
+cd "Recu_TP_AySO"
+cd Recu_TP_AySO
+pwd
+ls
+nano README.md
+git add 
+git add .
+git commit -m "readme modificado"
+git push 
+git clone https://github.com/sofiasartori/UTN-FRA_SO_Examenes
+source ~/.bashrc
+cd Recu_TP_AySO
+pwd
+nano punto_a.sh
+ls
+pwd
+ls
+echo "# UTN-FRA_SO_Examenes"> punto_a.sh
+ls
+sudo apt install tree
+sudo snap install tree
+mkdir -p /datos/textos{libros,revistas} datos/videos/{peliculas,series}
+mkdir -p datos/textos{libros,revistas} datos/videos/{peliculas,series}
+ls
+tree datos
+pwd
+t 
+tree datos
+ls -R datos
+tree datos
+ree datos/
+tree datos/
+echo'mkdir -p datos/textos{libros,revistas} datos/videos/{peliculas,series}' >punto_a.sh
+echo 'mkdir -p datos/textos{libros,revistas} datos/videos/{peliculas,series}' >punto_a.sh
+git add .
+git push
+sudo useradd -c "usuario desarrollo 1" -m -s /bin/bash p1c1_2024_u1
+cat /etc/passwd | grep -i p1c1_2024_u1
+ls -l home
+sudo passwd p1c1_2024_u1
+clave1
+sudo passwd p1c1_2024_u1
+sudo group add p1c1_2024_g1
+sudo groupadd p1c1_2024_g1
+user mod -G p1c1_2024_g1 p1c1_2024_u1
+usermod -G p1c1_2024_g1 p1c1_2024_u1
+sud usermod -G p1c1_2024_g1 p1c1_2024_u1
+sudo usermod -G p1c1_2024_g1 p1c1_2024_u1
+grep desa /etc/passwd /etc/group
+grep /group
+ls
+cd Recu_TP_AySO
+LS
+ls
+cat Punto_A.sh
+ls -R datos
+tree datos
+mv datos punto-b.sh
+pwd
+ls
+cd punto-b.sh
+ls
+tree datos
+groupadd p1c1_2024_g1
+nano punto-b.sh
+useradd -m -s /bin/bash -G p1c1_2024_g1 -p $(openssl passwd -1 "clave1") p1c1_2024_u1
+chown -R p1c1_2024_u1:p1c1_2024_g1 /datos
+sudo chown -R p1c1_2024_u1:p1c1_2024_g1 /datos
+chown -R p1c1_2024_u1:p1c1_2024_g1 datos
+ls
+rm datos
+rm
+rm --help
+rm /datos
+./UTN-FRA_SO_Examenes/script_Precondicion.sh
+git clone https://github.com/sofiasartori/UTN-FRA_SO_Examenes
+./UTN-FRA_SO_Examenes/script_Precondicion.sh
+source ~/.bashrc
+sudo chown -R p1c1_2024_u1:p1c1_2024_g1 /datos
+su -c "whoami > /datos/validar1.txt" p1c1_2024_u1
+ls
+tree datos
+sudo chown -R p1c1_2024_u1:p1c1_2024_g1 /datos
+sudo mkdir -p /datos
+sudo chown -R p1c1_2024_u1:p1c1_2024_g1 /datos
+sudo chmod -R 750 /datos
+su -c "whoami > /datos/validar1.txt" p1c1_2024_u1
+nano punto-b.sh
+pwd
+ls
+cd Recu_TP_AySO
+ls
+git add punto-b.sh
+git submodule add https://github.com/Vazquezsantiago/Recu_TP_AySO punto-b.sh
+git commit -m "punto b"
+git push
+sudo rm punto-b.sh.save
+ls
+sudo groupadd p1c1_2024_Todos
+sudo useradd -m -s /bin/bash -g p1c1_2024_Todos -p $(openssl passwd -1 "clave1") p1c1_2024_u2
+sudo usermod -aG p1c1_2024_Todos p1c1_2024_u1
+sudo chown -R p1c1_2024_u1:p1c1_2024_Todos /datos
+sudo chmod -R 770 /datos
+su -c "whoami >> /datos/validar1.txt" p1c1_2024_u2
+mkdir punto-c.sh
+nano punto-c.sh
+rm punto-c.sh
+tocuh punto-c.sh
+touch Punto-C.sh
+ls
+nano punto-c.sh
+ls
+nano punto c
+ls
+punto-c.sh
+ls punto-c.sh
+nano punto-c.sh
+nano punto_c
+ls
+nano punto_C
+git commit -m "punto c"
+git push
+$HOMW
+$HOME
+pwd
+cd home
+cd /home
+mkdir -p ~/Ejercicio_D/{rx,tx}/{lotes_{1..20}}
+mkdir -p ~/Ejercicio_D/rx/extras_{1..100}
+tree ~/Ejercicio_D/ --noreport | pr -T -S' ' -w 80 --column 4
+cd
+pwd
+ls
+cd Recu_TP_AySO
+nano punto-d.sh
+git add
+git add .
+git commit -m " punto D"
+git push
+free -h | grep Mem | awk '{print "Memoria Total:", $2}' > ~/Punto_E/Filtro_basico.txt
+lscpu | grep "Model name" | awk -F: '{print "CPU Modelo:" $2}' >> ~/Punto_E/Filtro_basico.txt
+lscpu | grep "MHz" | head -1 | awk -F: '{printf "Frecuencia: %.2f MHz\n", $2}' >> ~/Punto_E/Filtro_basico.txt
+cat ~/Punto_E/Filtro_basico.txt
+ls
+nano punto-D.SH
+git add .
+git commit -m "punto d"
+git push 
+mkdir -p ~/Punto_F
+ip_publica=$(curl -s ifconfig.me)
+cpu_modelo=$(lscpu | grep "Model name" | awk -F: '{print $2}' | xargs)
+cpu_freq=$(lscpu | grep "MHz" | head -1 | awk -F: '{print $2 " MHz"}' | xargs)
+echo "Mi IP pública es: $ip_publica" > ~/Punto_F/Filtro_Avanzado.txt
+echo "CPU Modelo:$cpu_modelo Frecuencia:$cpu_freq" >> ~/Punto_F/Filtro_Avanzado.txt
+cat ~/Punto_F/Filtro_Avanzado.txt
+history -a
